@@ -59,7 +59,9 @@ En este experimento se usa una lámpara de mercurio Hg, pues proporciona varias 
 
 Pensamos en los fotones como partículas que chocan con un electrón. Entonces, por conservación de la energía:
 $$h \nu = \frac12 m v_e^2 + \Phi_0$$
-donde $\Phi_0$ es la *función trabajo*, que es el trabajo mínimo necesario para arrancar un electrón del material. Ojo que se confundenla función trabajo, que acá se denominará  $\Phi_0$ pero la notación de la bibliografía puede variar, y el *potencial de contacto*  $\Phi_0 = e \phi_0$, que contiene la misma información pero se le llama potencial en analogía con el potencial eléctrico.
+donde $\Phi_0$ es la *función trabajo*, que es el trabajo mínimo necesario para arrancar un electrón del material. Ojo que se confundenla función trabajo, que acá se denominará  $\Phi_0$ pero la notación de la bibliografía puede variar, y el *potencial de contacto*  $\Phi_0 = e \phi_0$, que contiene la misma información pero se le llama potencial en analogía con el potencial eléctrico.Si $h\nu < \Phi_0$ no desprendemos electrones. Entonces precisamos, como mínimo, que $\nu = \Phi_0/h$ para despedir electrones y si $\nu > \Phi_0/h$ la energía restante se comvertirá en energía cinética. Es decir,
+
+$$$$
 
 Esos electrones los frenamos con una diferencia de potencial variable $V_f$
 $$V_f = \frac{h}{e}\nu-\Phi_0$$
@@ -86,9 +88,9 @@ Esa ventana permite que la luz pase a una cámara oscura donde se encuentra un b
 
 En ese bulbo existe un par de electrodos. Sobre uno de ellos se  
 
-### Circuito amplificador y determinación
+### Circuito amplificador
 
-Se conecta al par de electrodos 
+Se conecta al par de electrodos un amplificador. Esto permitirá desconectar el multimetro de los electrodos (si no el multímetro cerraría el circuito y rápidamente se corrregiría la diferencia de potencial entre electrodos). El Amplificador, igualmente, tiene una ganancia 1. Es decir, $V_{electrodos} \aprox v_{salida}$
 
 Probabilidad de las interacciones dobles.
 
@@ -106,6 +108,42 @@ Los filtros no son perfectos. Tener cuidado con eso.
 
 
 # Análisis del Efecto Compton a partir del espectro de emisión del $^{137}$Cs medido con un cristal centellador.
+
+## Efecto compton
+
+Se presenta la aparición y cambio en la posición de un segundo pico según el ángulo en el que se pone el detector desde la trayectoria inicial.
+
+Se propone que los fotones son dispersados por un choque elástico con un electrón en reposo y relativamente libre de un átomo. Para el fotón $E_\gamma=h\nu$ y $p=E/c$ mientras que para el electrón su enegía y momento son nulos antes del choque, por encontrarse en relativo reposo. Luego del choque $E_\gamma'=h\nu'$ y que $p'=E'/c$ mientras que el electrón luego del choque tendrá $E_e' = \gamma m c^2$, de la que deberemos tener en cuenta que . 
+
+Por conservación de la energía
+
+Por conservación del momento
+
+Combinando las ecuaciones 
+
+$\Delta \lambda = \lamda' - \lambda = \frac{h}{mc}(1-cos \theta)= \lamda_c (1-cos\theta)$
+
+donde $\Delta \lambda$ es el cambio en longitud de onda del fotón, $\theta$ es el angulo que se desvían los fotones y $\lambda_c$ es la longitud de onda de compton que está formada a partir de constantes de la naturaleza.
+
+Podremos emtpmces emcontrar el cociente entre las energías final y inicial del fotón
+
+$\frac{h\nu'}{h\nu}= \frac{1}{1-(\lambda_c (1-cos(\theta)))}$
+
+## Esquema del experimento
+
+Fuente radiactiva - Detector centellador (-fuente de HV) - amplificador -MCA
+
+### Fuentes radiactivas
+
+Repaso de estructura atómica. Isótopos e isótopos radiactivos. Mecanismos de decaimiento. 
+
+#### Cs137
+
+El mismo tiene 137 nucleones y 55 protones (es Cesio) ¡Le sobran neutrones! Lo pierde mediante decaimineto $\beta^-$ es decir uno de los neutrones de su núcleo sufre la transición $n \to p + e^- + \bar{\nu}$. Al perder un neutron y ganar un proton se transforma en 137Ba, en particular, en una especie exitada de 137Ba, que denotamos por 137Ba*.
+
+### Detector
+
+Consta de un cristal centellador y un fotomultiplicador. En el cristal centellador, la radiación incidente puede interactuar por efecto compton o bien por efecto fotoelectrico, en distintas probabilidades según la energía del fotón incidente. En caso de Compton, alguna porción de la energía inicial podrá 
 
 Fundamental para este trabajo la siguiente bibliografía:
 [Glenn F. Knoll. Radiation Detection and Measurement. 4.a ed. Wiley, 2010.](https://phyusdb.wordpress.com/wp-content/uploads/2013/03/radiationdetectionandmeasurementbyknoll.pdf)
